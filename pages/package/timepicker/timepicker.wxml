@@ -1,0 +1,20 @@
+<!--pages/timepicker/tiempicker.wxml-->
+<text>pages/timepicker/tiempicker.wxml</text>
+<view bindtap="showTime">时间选择</view>
+<van-popup
+  show="{{show}}"
+  position="bottom"
+>
+  <van-datetime-picker
+    type="datetime"
+    min-date="{{minDate}}"
+    max-date="{{maxDate}}"
+    value="{{minDate}}"
+    :formatter="formatter"
+    bind:confirm="confirm"
+    bind:cancel = "onCLose"
+    bind:change = "timeChange"
+    data-id="1" data-name="2" data-index="3"
+  />
+  <!-- value="{{birthdate ? birthdate*1000 : item.default_text*1000}}" -->
+</van-popup>

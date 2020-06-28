@@ -1,0 +1,12 @@
+<view class="wrap">
+  <image src="./images/login.png"></image>
+  <view>我们的小程序将获取您的以下权限：</view>
+  <view>·获取您的公开信息（昵称和头像等）</view>
+  <view>（如未授权，可能无法正常使用该小程序）</view>
+
+  <view>
+    <button class="btn" open-type="getUserInfo" bindgetuserinfo='onLoginTab'>确定授权</button>
+    <view class="no-idont" bindtap="onHomeTap">暂不授权</view>
+  </view>
+
+</view>

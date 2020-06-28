@@ -1,0 +1,15 @@
+<!--pages/package/package.wxml-->
+<van-index-bar scroll-top="{{ scrollTop }}" index-list="{{ indexList }}">
+  <view>
+    <van-index-anchor index="公共组件"/>
+    <navigator url="./mylogin/mylogin"><van-cell title="mylogin登录" /></navigator>
+    <navigator url="./tabbar/tabbar"><van-cell title="tabbar标签栏" /></navigator>
+  </view>
+  
+  <view>
+    <van-index-anchor index="表单组件"/>
+    <navigator url="../timepicker/timepicker"><van-cell title="datetimepick 时间选择器" /></navigator>
+    <navigator url="../timepicker/timepicker"><van-cell title="文本1" /></navigator>
+    <navigator url="../timepicker/timepicker"><van-cell title="文本1" /></navigator>
+  </view>
+</van-index-bar>

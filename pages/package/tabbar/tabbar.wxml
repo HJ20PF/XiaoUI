@@ -1,0 +1,3 @@
+<!--pages/package/tabbar/tabbar.wxml-->
+<foot bind:padding="getPadding" />
+
