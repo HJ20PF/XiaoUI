@@ -1,3 +1,4 @@
+@import './xiao/resource/css/xiaoui.wxss';
 /**app.wxss**/
 .container {
   height: 100%;

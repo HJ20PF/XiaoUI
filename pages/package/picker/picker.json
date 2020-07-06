@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-datetime-picker": "/xiao/vant/datetime-picker/index",
+    "van-popup": "/xiao/vant/popup/index"
+  }
+}

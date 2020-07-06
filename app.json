@@ -1,11 +1,18 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/package/timepicker/timepicker",
-    "pages/package/package",
-    "pages/package/mylogin/mylogin",
-    "pages/login/login",
-    "pages/package/tabbar/tabbar"
+    "pages/lists/lists",
+    "pages/login/login"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/package/",
+      "pages": [
+        "picker/picker",
+        "mylogin/mylogin",
+        "tabbar/tabbar"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",

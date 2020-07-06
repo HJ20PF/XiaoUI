@@ -1,5 +1,4 @@
 <!--pages/timepicker/tiempicker.wxml-->
-<text>pages/timepicker/tiempicker.wxml</text>
 <view bindtap="showTime">时间选择</view>
 <van-popup
   show="{{show}}"

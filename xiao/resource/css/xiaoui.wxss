@@ -1,0 +1,45 @@
+/* v:1.00 */
+page {
+  --fonta: #222;
+  --fontb: #666;
+  --fontc: #999;
+  --white: #fff;
+  --skin: #e9472c;
+  --pink: #FFC8C7;
+  --normal: linear-gradient(to right, #FF8044, #e9472c);
+  --prevent: linear-gradient(to right, #999, #666);
+  --mainbtn: -webkit-linear-gradient(top, #ff9747 , #fc6572);
+}
+page {
+  font-size: 26rpx;
+  color: #222;
+  background: #f8f8f8;
+}
+page, navigator, view, text, image {
+  margin: 0;
+  padding: 0;
+}
+/* flex */
+.xi-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xi-flex-alignc {
+  display: flex;
+  align-items: center;
+}
+.xi-flex-sb {
+  display: flex;
+  justify-content: space-between;
+}
+.xi-display-flex {
+  display: flex;
+}
+.xi-flex {
+  flex:1;
+}
+/* color */
+.xi-bgw{
+  background: #fff;
+}
