@@ -6,11 +6,15 @@
   ],
   "subPackages": [
     {
-      "root": "pages/package/",
+      "root": "pages/package",
       "pages": [
         "picker/picker",
         "mylogin/mylogin",
-        "tabbar/tabbar"
+        "tabbar/tabbar",
+        "poster/poster",
+        "iconnav/iconnav",
+        "menunav/menunav",
+        "button/button"
       ]
     }
   ],

@@ -28,14 +28,20 @@ Page({
             id: 'nav',
             name: '导航相关',
             open: false,
-            pages: []
+            pages: [{page:'menunav',title:'宫格导航'},{page:'iconnav',title:'图标导航'}]
         },
         {
             id: 'search',
             name: '搜索相关',
             open: false,
             pages: []
-        }
+        },
+        {
+          id: 'show',
+          name: '展示组件',
+          open: false,
+          pages: [{page:'poster',title:'海报'},]
+      }
       ]
     // list: [
     //   {

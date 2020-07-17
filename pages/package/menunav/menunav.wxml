@@ -1,0 +1,14 @@
+<view class="xi-flex xi-flex-y" style="">
+  <view class="xi-list-box">
+    <view class="xi-list-title">菜单导航1</view>
+    <view>
+      <nav nav="{{nav}}"/>
+    </view>
+  </view>
+  <view class="xi-list-box">
+    <view class="xi-list-title">宫格</view>
+    <view>
+      <gridnav nav="{{nav}}"/>
+    </view>
+  </view>
+</view>

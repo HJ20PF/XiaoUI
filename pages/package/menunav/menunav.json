@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "宫格导航",
+  "usingComponents": {
+    "nav": "/xiao/component/xnav/xnav",
+    "gridnav":"/xiao/component/xgridnav/xgridnav"
+  }
+}

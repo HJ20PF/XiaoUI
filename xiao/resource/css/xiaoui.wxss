@@ -19,27 +19,76 @@ page, navigator, view, text, image {
   margin: 0;
   padding: 0;
 }
+/* 轮播点12rpx */
+page .wx-swiper-dot{
+  width: 10rpx;
+  display: inline-flex;
+  height: 10rpx;
+  margin-right: 18rpx;
+}
+page .wx-swiper-dot::before{
+  content: '';
+  background: #d3d3d3;
+  flex-grow: 1; 
+  border-radius: 100%;
+
+}
+page .wx-swiper-dot-active::before{
+  content: '';
+  background:#E9472C;
+  flex-grow: 1;
+  border-radius: 100%;
+}
+
+
+
+.ellips {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellips2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.lineThrough {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 24rpx;
+}
 /* flex */
-.xi-flex-center {
-  display: flex;
+.xi-flex-center{
   justify-content: center;
   align-items: center;
 }
 .xi-flex-alignc {
-  display: flex;
   align-items: center;
 }
 .xi-flex-sb {
-  display: flex;
   justify-content: space-between;
 }
-.xi-display-flex {
+.xi-flex {
   display: flex;
 }
-.xi-flex {
-  flex:1;
+.xi-flex-y {
+  flex-direction: column;
 }
+
 /* color */
 .xi-bgw{
   background: #fff;
+}
+/* list */
+.xi-list-box{
+  margin-top: 20rpx;
+  background: #fff;
+}
+.xi-list-title{
+  line-height: 100rpx;
+  font-size: 33rpx;
+  padding-left: 20rpx;
+  font-weight: 600;
+  border-bottom: 0.5px solid #f1f1f1;
 }

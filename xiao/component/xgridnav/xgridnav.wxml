@@ -1,0 +1,22 @@
+<view class="nav" wx:if="{{na.length > 0}}">
+  <block wx:for="{{na}}" wx:key="na">
+    <view class="swiper-box" style="width:{{100/count}}%">
+      <block wx:if="{{item.types == 1||item.types == 4||item.types == 5}}">
+        <view class="item" data-index="{{index}}" data-idx="{{idx}}" bindtap="_onNavTap">
+          <view class="img-box">
+            <image class="item-img" src="{{item.icon}}"></image>
+          </view>
+          <view class="item-txt ellips">{{item.txt}}</view>
+        </view>
+      </block>
+      <block wx:if="{{item.types == 3}}">
+        <button class="item" open-type="contact" style="background:#fff" style="width:{{100/count}}%">
+          <view class="img-box">
+            <image class="item-img" src="{{item.icon}}"></image>
+          </view>
+          <view class='item-txt ellips'>{{it.txt}}</view>
+        </button>
+      </block>
+    </view>
+  </block>
+</view>

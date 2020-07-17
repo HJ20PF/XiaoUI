@@ -15,8 +15,8 @@
 </van-index-bar> -->
 <view>
   <block wx:for="{{list}}" wx:key="id">
-    <view class="xi-bgw " style="margin:20rpx;">
-      <view style="padding: 20rpx;" bindtap="onOpen" data-id="{{item.id}}">{{item.name}}</view>
+    <view class="xi-bgw " style="margin:20rpx;padding:20rpx;">
+      <view bindtap="onOpen" data-id="{{item.id}}" style="padding:20rpx 0rpx;color: #666;font-size: 34rpx;">{{item.name}}</view>
       <block wx:for="{{item.pages}}" wx:for-item="pages" wx:key="*this">
         <navigator url="../package/{{pages.page}}/{{pages.page}}" wx:if="{{item.open}}">
           <view style="padding: 20rpx;">{{pages.title}}{{pages.page}}</view>
