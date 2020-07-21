@@ -1,0 +1,25 @@
+.my-title {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  padding: 0rpx 15px;
+  /* border-bottom: 1rpx solid #eee;   */
+}
+.my-title image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 16rpx;
+  border-radius: 30rpx;
+}
+.title-name{
+  max-width: 400rpx;
+}
+.my-title .fansi{ flex: 1; text-align: right}
+.my-title .fansiBtn{
+  text-align: right;
+  border: 1rpx solid #ddd;
+  padding: 10rpx;
+  display: inline-block;
+  border-radius: 10rpx;
+  font-weight: 600;
+}

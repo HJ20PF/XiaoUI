@@ -1,0 +1,22 @@
+<!-- <view class="xi-flex xi-flex-y" style="">
+  <view class="xi-list-box"> -->
+    <!-- <view class="xi-list-title">标题导航</view> -->
+    <!-- <view>
+
+    </view>
+  </view>
+</view> -->
+<!-- <image src="{{content.root+content.list[0].pic}}"/> -->
+<view class="">
+  <view class='my-title'>
+    <image src="{{banner.root+banner.list[0].pic}}" style="width:40rpx;height:40rpx"/>
+    <view class="eellipsis title-name">我的订单</view>
+    <view class="eellipsis fansi">
+      <text class="fansiBtn">查看全部</text>
+    </view>
+  </view>
+  <view>
+    <banner banner="{{banner}}" height="750"/>
+  </view>
+  <view>内容</view>
+</view>

@@ -5,6 +5,11 @@
   padding: 0rpx 15px;
   /* border-bottom: 1rpx solid #eee;   */
 }
+.my-title image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 16rpx;
+}
 .title-name{
   max-width: 400rpx;
 }

@@ -1,5 +1,6 @@
 <template name="titlenav">
   <view class='my-title'>
+    <image src="{{content.root+content.list[0].pic}}" style="width:40rpx;height:40rpx"/>
     <view class="eellipsis title-name">我的订单</view>
     <navigator url='' class="eellipsis">查看全部</navigator>
     <view class="right-arrow"></view>

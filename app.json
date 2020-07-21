@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/lists/lists",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/test/test"
   ],
   "subPackages": [
     {
