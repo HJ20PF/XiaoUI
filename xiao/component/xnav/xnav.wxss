@@ -6,6 +6,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 20rpx;
+  overflow: hidden;
 }
 
 .nav-item {

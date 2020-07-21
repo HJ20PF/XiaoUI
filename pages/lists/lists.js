@@ -16,7 +16,7 @@ Page({
             id: 'layout',
             name: '基础组件',
             open: false,
-            pages: []
+            pages: [{page:'titles',title:'标题'}]
         },
         {
             id: 'feedback',
@@ -28,7 +28,7 @@ Page({
             id: 'nav',
             name: '导航相关',
             open: false,
-            pages: [{page:'menunav',title:'宫格导航'},{page:'iconnav',title:'图标导航'}]
+            pages: [{page:'menunav',title:'宫格导航'}]
         },
         {
             id: 'search',
@@ -40,7 +40,7 @@ Page({
           id: 'show',
           name: '展示组件',
           open: false,
-          pages: [{page:'poster',title:'海报'},]
+          pages: [{page:'poster',title:'海报'},{page:'banner',title:'轮播图'},]
       }
       ]
     // list: [

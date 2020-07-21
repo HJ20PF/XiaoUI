@@ -9,7 +9,7 @@
                 <view class="img-box">
                   <image class="item-img" src="{{it.icon}}"></image>
                 </view>
-                <view class="item-txt ellips1">{{it.txt}}</view>
+                <view class="item-txt">{{it.txt}}</view>
               </view>
             </block>
             <block wx:if="{{it.types == 3}}">
@@ -17,7 +17,7 @@
                 <view class="img-box">
                   <image class="item-img" src="{{it.icon}}"></image>
                 </view>
-                <view class='item-txt ellips1'>{{it.txt}}</view>
+                <view class='item-txt'>{{it.txt}}</view>
               </button>
             </block>
           </block>

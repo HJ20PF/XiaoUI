@@ -12,9 +12,10 @@
         "mylogin/mylogin",
         "tabbar/tabbar",
         "poster/poster",
-        "iconnav/iconnav",
         "menunav/menunav",
-        "button/button"
+        "button/button",
+        "titles/titles",
+        "banner/banner"
       ]
     }
   ],

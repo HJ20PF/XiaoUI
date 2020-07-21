@@ -1,4 +1,4 @@
-/* v:1.00 */
+/* v1.01.20200721 */
 page {
   --fonta: #222;
   --fontb: #666;
@@ -92,3 +92,114 @@ page .wx-swiper-dot-active::before{
   font-weight: 600;
   border-bottom: 0.5px solid #f1f1f1;
 }
+
+
+/* ----------------------------------通用------------------ */
+.eellipsis
+{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.eellipsis-2
+{
+  display: -webkit-box;
+  overflow: hidden;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+button::after {
+  border: none;
+  border-radius: 0;
+}
+
+button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  border: none;
+  overflow: hidden;
+}
+
+.none {
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  color: #999;
+  font-size: 24rpx;
+}
+/* 箭头 */
+.right-arrow {
+  display: inline-block;
+  position: relative;
+  width: 30rpx;
+  height: 30rpx;
+}
+.right-arrow::after {
+  display: inline-block;
+  content: " ";
+  height: 16rpx;
+  width: 16rpx;
+  border-width: 4rpx 4rpx 0 0;
+  border-color: #c7c7cc;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  top: 50%;
+  right: 4rpx;
+  margin-top: -9rpx;
+}
+/* 下箭头 */
+.down-arrow {
+  display: inline-block;
+  position: relative;
+  width: 40rpx;
+  height: 30rpx;
+}
+.down-arrow::after {
+  display: inline-block;
+  content: " ";
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 0 2rpx 2rpx 0;
+  border-color: #111;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform-origin: center;
+  transition: transform 0.3s;
+  position: absolute;
+  top: 50%;
+  right: 10rpx;
+  margin-top: -10rpx;
+}
+/* 加上active旋转成 上箭头 */
+.down-arrow.active::after {
+  transform-origin: center;
+  transform: rotate(-135deg);
+  transition: transform 0.3s;
+}
+/* 实体三角形 */
+.triangle {
+  display: inline-block;
+  position: relative;
+  top: 6rpx;
+  margin-left: 10rpx;
+  width: 0;
+  height: 0;
+  border: 10rpx solid transparent;
+  border-top-color: #999;
+}
+
+
+.hide{ display:none}
+.no-more{ padding:30rpx 0; text-align: center; color: var(--fontc)}
+.wxParse-p image{ display: block; width: 100% !important;}

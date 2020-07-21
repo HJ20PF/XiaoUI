@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   padding-top: 20rpx;
   justify-content: center;
+  overflow: hidden;
 }
 
 .nav-item {

@@ -1,0 +1,7 @@
+<template name="titlenav">
+  <view class='my-title'>
+    <view class="eellipsis title-name">我的订单</view>
+    <navigator url='' class="eellipsis">查看全部</navigator>
+    <view class="right-arrow"></view>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "轮播图",
+  "usingComponents": {
+    "banner": "/xiao/component/xbanner/xbanner"
+  }
+}

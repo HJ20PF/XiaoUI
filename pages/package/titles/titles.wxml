@@ -1,0 +1,9 @@
+<view class="xi-flex xi-flex-y" style="">
+  <view class="xi-list-box">
+    <!-- <view class="xi-list-title">标题导航</view> -->
+    <view>
+      <import src="../../../xiao/template/xtitlenav/xtitlenav"/>
+      <template is="titlenav" data="{{text: 'forbar'}}"/>
+    </view>
+  </view>
+</view>

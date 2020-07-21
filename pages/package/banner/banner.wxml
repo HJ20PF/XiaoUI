@@ -1,0 +1,6 @@
+<view class="xi-flex xi-flex-y" style="">
+  <view class="xi-list-box">
+    <!-- <view class="xi-list-title">标题导航</view> -->
+    <banner banner="{{banner}}"/>
+  </view>
+</view>
